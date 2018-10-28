@@ -10,7 +10,7 @@ set cpo&vim
 
 function! currenttime#time()
     let now = localtime()
-    echo strfttime('%Y/%m/%d %H:%M:%S', now)
+    echo strftime('%Y/%m/%d %H:%M:%S', now)
 endfunction
 
 let &cpo = s:save_cpo
