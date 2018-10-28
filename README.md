@@ -1,0 +1,2 @@
+# current-time-vim
+vimpluginの練習として今の時間を表示するだけのvimpluginを作ってみる
